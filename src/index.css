@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Optional: custom styles that are hard to do with pure Tailwind */
+@layer base {
+  body {
+    @apply antialiased text-gray-800;
+  }
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: "Libre Baskerville", Georgia, serif;
+  }
+}
